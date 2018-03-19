@@ -1,12 +1,41 @@
 html {
   font-family: Helvetica;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
+.hero {
+  background-image: url(../images/building.jpg);
+  text-align: center;
+  color: white;
 }
 
-.header {
-  background-image: url(../images/building.png);
+.btn-nav {
+  color: white;
+  font-size: 18px;
+}
+
+h1  {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+.footer {
+  color: white;
+  background-color: dimgray;
+  font-size: 11px;
+}
+
+.centered {
+  text-align: center;
 }

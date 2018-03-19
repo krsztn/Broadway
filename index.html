@@ -7,56 +7,63 @@
 
   <body>
 
-    <!-- Header -->
-
-    <div class="header">
+    <!-- Hero -->
+    <div class="hero" id="home">
       <h1>Broadway Design</h1>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Process</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+        <p><a class="btn-nav" href="#">Home</a></p>
+        <p><a class="btn-nav" href="#process">Process</a></p>
+        <p><a class="btn-nav" href="#work">Work</a></p>
+        <p><a class="btn-nav" href="#team">Team</a></p>
+        <p><a class="btn-nav" href="#contact">Contact</a></p>
     </div>
 
     <!-- Our Process -->
-    <div class="process">
+    <div class="centered" id="process">
       <h2>Our Process</h2>
+
+      <div class="centered" id="identify">
+      <img src="./resources/images/identify.svg" alt="Identify icon">
       <h3>Identify</h3>
-      <img src="./resources/images/identify.svg" alt="Identify icon">
       <p>We focus on the most important details.</p>
+      </div>
 
+      <div class="centered" id="understand">
+      <img src="./resources/images/understand.svg" alt="Understand icon">
       <h3>Understand</h3>
-      <img src="./resources/images/identify.svg" alt="Identify icon">
       <p>We study our projects inside and out.</p>
+      </div>
 
+      <div class="centered" id="execute">
+      <img src="./resources/images/execute.svg" alt="Execute icon">
       <h3>Execute</h3>
-      <img src="./resources/images/identify.svg" alt="Identify icon">
       <p>We put everything we have into our work.</p>
+      </div>
     </div>
 
-    <!-- Bottom area -->
-    <h3 class="newyork"></h3>
-    <div>
-      <h3>Portfolio</h3>
+    <!-- Mini hero -->
+    <div class="hero">
+      <h3>Designed in New York</h3>
+    </div>
+
+    <div class="centered">
+      <h3 id="work">Portfolio</h3>
       <p>Coming Soon</p>
-      <h3>Team</h3>
+      <h3 id="team">Team</h3>
       <p>We're hiring!</p>
-      <h3>Contact</h3>
-      <p>Phone: (555)-555-5555</p><br>
-      <p>E-mail: test@example.com</p><br>
+      <h3 id="contact">Contact</h3>
+      <p>Phone: (555)-555-5555</p>
+      <p>E-mail: test@example.com</p>
       <p>Twitter: @test</p>
     </div>
 
     <!-- Footer -->
-    <p>
-      <span id="copyright">© Broadway 2017</span>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Work</a>
-      <a href="#">Team</a>
-      <a href="#">Contact</a>
+    <p class="footer">
+      © Broadway 2017
+      <a class="btn-nav" href="#home">Home</a>
+      <a class="btn-nav" href="#about">About</a>
+      <a class="btn-nav" href="#work">Work</a>
+      <a class="btn-nav" href="#team">Team</a>
+      <a class="btn-nav" href="#contact">Contact</a>
     </p>
   </body>
 </html>
